@@ -201,6 +201,8 @@
 /* #undef HAVE_ELF_AUX_INFO */
 /* #undef HAVE_PPOLL */
 #define HAVE__EXIT 1
+/* #undef HAVE_GETRESUID */
+/* #undef HAVE_GETRESGID */
 
 #endif /* HAVE_LIBC */
 

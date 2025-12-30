@@ -8621,3 +8621,81 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake:193 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake:98 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "vendored/SDL/CMakeLists.txt:1164 (check_symbol_exists)"
+    checks:
+      - "Looking for getresgid"
+    directories:
+      source: "/Users/szhivov/dev/3d/build/CMakeFiles/CMakeScratch/TryCompile-qG0CMN"
+      binary: "/Users/szhivov/dev/3d/build/CMakeFiles/CMakeScratch/TryCompile-qG0CMN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/szhivov/dev/3d/vendored/SDL/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_GETRESGID"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/szhivov/dev/3d/build/CMakeFiles/CMakeScratch/TryCompile-qG0CMN'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cd723/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cd723.dir/build.make CMakeFiles/cmTC_cd723.dir/build
+        Building C object CMakeFiles/cmTC_cd723.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -D_GNU_SOURCE=1 -std=gnu17 -arch arm64 -MD -MT CMakeFiles/cmTC_cd723.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_cd723.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_cd723.dir/CheckSymbolExists.c.o -c /Users/szhivov/dev/3d/build/CMakeFiles/CMakeScratch/TryCompile-qG0CMN/CheckSymbolExists.c
+        /Users/szhivov/dev/3d/build/CMakeFiles/CMakeScratch/TryCompile-qG0CMN/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'getresgid'
+            8 |   return ((int*)(&getresgid))[argc];
+              |                   ^
+        1 error generated.
+        make[2]: *** [CMakeFiles/cmTC_cd723.dir/CheckSymbolExists.c.o] Error 1
+        make[1]: *** [cmTC_cd723/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake:193 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake:98 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "vendored/SDL/CMakeLists.txt:1165 (check_symbol_exists)"
+    checks:
+      - "Looking for getresuid"
+    directories:
+      source: "/Users/szhivov/dev/3d/build/CMakeFiles/CMakeScratch/TryCompile-516TQo"
+      binary: "/Users/szhivov/dev/3d/build/CMakeFiles/CMakeScratch/TryCompile-516TQo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/szhivov/dev/3d/vendored/SDL/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_GETRESUID"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/szhivov/dev/3d/build/CMakeFiles/CMakeScratch/TryCompile-516TQo'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_89c59/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_89c59.dir/build.make CMakeFiles/cmTC_89c59.dir/build
+        Building C object CMakeFiles/cmTC_89c59.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -D_GNU_SOURCE=1 -std=gnu17 -arch arm64 -MD -MT CMakeFiles/cmTC_89c59.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_89c59.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_89c59.dir/CheckSymbolExists.c.o -c /Users/szhivov/dev/3d/build/CMakeFiles/CMakeScratch/TryCompile-516TQo/CheckSymbolExists.c
+        /Users/szhivov/dev/3d/build/CMakeFiles/CMakeScratch/TryCompile-516TQo/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'getresuid'
+            8 |   return ((int*)(&getresuid))[argc];
+              |                   ^
+        1 error generated.
+        make[2]: *** [CMakeFiles/cmTC_89c59.dir/CheckSymbolExists.c.o] Error 1
+        make[1]: *** [cmTC_89c59/fast] Error 2
+        
+      exitCode: 2
+...

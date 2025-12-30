@@ -817,6 +817,10 @@ HAVE_GETAUXVAL:INTERNAL=
 HAVE_GETHOSTNAME:INTERNAL=1
 //Have symbol getpagesize
 HAVE_GETPAGESIZE:INTERNAL=1
+//Have symbol getresgid
+HAVE_GETRESGID:INTERNAL=
+//Have symbol getresuid
+HAVE_GETRESUID:INTERNAL=
 //Have symbol gmtime_r
 HAVE_GMTIME_R:INTERNAL=1
 //Have library m
