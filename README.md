@@ -10,5 +10,6 @@ Or if already cloned
 
 ### To Build and Run
 1. Have cmake downloaded
-2. `cmake --build build && ./build/mygame.app/Contents/MacOS/mygame`
+2. Create build folder `cmake -S . -B build`
+2. Build and run `cmake --build build && ./build/mygame.app/Contents/MacOS/mygame`
 
