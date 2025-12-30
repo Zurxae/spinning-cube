@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/szhivov/dev/3d/build/cmake_install.cmake",
-		"/Users/szhivov/dev/3d/build/vendored/SDL/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

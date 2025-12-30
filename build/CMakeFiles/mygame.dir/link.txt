@@ -1,1 +1,0 @@
-/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/mygame.dir/main.c.o -o mygame.app/Contents/MacOS/mygame  -Wl,-rpath,/Users/szhivov/dev/3d/build/vendored/SDL vendored/SDL/libSDL3.0.dylib
