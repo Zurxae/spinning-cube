@@ -1,0 +1,8 @@
+/Users/szhivov/dev/3d/build/CMakeFiles/mygame.dir
+/Users/szhivov/dev/3d/build/CMakeFiles/edit_cache.dir
+/Users/szhivov/dev/3d/build/CMakeFiles/rebuild_cache.dir
+/Users/szhivov/dev/3d/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
+/Users/szhivov/dev/3d/build/vendored/SDL/CMakeFiles/SDL3_test.dir
+/Users/szhivov/dev/3d/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
+/Users/szhivov/dev/3d/build/vendored/SDL/CMakeFiles/edit_cache.dir
+/Users/szhivov/dev/3d/build/vendored/SDL/CMakeFiles/rebuild_cache.dir
